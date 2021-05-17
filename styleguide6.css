@@ -75,3 +75,10 @@ h1{
     margin-right: 3%;
     margin-left: 3%;
   }
+
+ /* Logo sektion */
+ .logoimage{
+     width: 25%;
+     height: auto;
+     margin-left: 3%;
+ } 
