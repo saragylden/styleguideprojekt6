@@ -1,3 +1,5 @@
+// Sara JS - Auto Smooth Scroll fra Navbar og fra bunden til top
+
 var scrollY = 0;
 var distance = 40;
 var speed = 24;
@@ -33,3 +35,5 @@ function resetScroller(el){
 		clearTimeout(animator);
 	}
 }
+
+// SARA JS - Typing Text Animation (Array Loop) 
