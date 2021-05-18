@@ -153,5 +153,22 @@ h1{
     width: 100%;
 }
 
+/* OP TIL TOP KNAP */
+.scrollop-knap{
+  position: relative;
+  background-color: #214D13;
+  border: none;
+  font-size: 15px;
+  color: #FFFFFF;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+  font-family: 'Archivo Black', sans-serif;
+  margin-left: 45%;
+}
 
  
