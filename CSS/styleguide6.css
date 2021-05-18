@@ -28,7 +28,7 @@ body{
  /* HEADER PIC */
  .header {
     width: 100%;
-    filter: brightness(50%);
+    filter: brightness(25%);
   }
 
   .headertitle{
@@ -37,6 +37,16 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 60px;
+    color: #fff;
+    font-family: 'Archivo Black', sans-serif;
+  }
+
+  .headertitle2{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
     color: #fff;
     font-family: 'Archivo Black', sans-serif;
   }
