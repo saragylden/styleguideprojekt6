@@ -5,25 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Styleguide Projekt 6</title>
-    <link rel="stylesheet" href="styleguide6.css">
+    <link rel="stylesheet" href="CSS/styleguide6.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <script src="extrafun.js"></script>
+    <script src="JS/extrafun.js" defer></script>
 </head>
 <body>
     <div class="topnav">
-        <a href="#logo">Logo</a>
-        <a href="#knapper">Knapper</a>
-        <a href="#typografi">Typografi</a>
-        <a href="#ikoner">Ikoner</a>
-        <a href="#navigation">Navigation</a>
-        <a class="active" href="#farver">Farver</a>
+        <a href="#" onclick="return false;" onmousedown="autoScrollTo('div6');">Logo</a>
+        <a href="#" onclick="return false;" onmousedown="autoScrollTo('div5');">Knapper</a>
+        <a href="#" onclick="return false;" onmousedown="autoScrollTo('div4');">Typografi</a>
+        <a href="#" onclick="return false;" onmousedown="autoScrollTo('div3');">Ikoner</a>
+        <a href="#" onclick="return false;" onmousedown="autoScrollTo('div2');">Navigation</a>
+        <a href="#" onclick="return false;" onmousedown="autoScrollTo('div1');">Farver</a>
       </div>
 
-      <img src="./IMG/norqiheader.jpg" class="header"></img>
+      <img src="./IMG/norqiheader.jpg" class="header" id="headertitleId"></img>
       <div class="headertitle">Projekt 6: Styleguide</div>
 
-    <section class="pagefarver">
-        <h1>FARVER:</h1>
+    <section>
+        <h1 id="div1">FARVER:</h1>
 
         <div class="box1">
             HEX: #859D7D
@@ -40,11 +40,11 @@
         <div class="box4">
             HEX: #000000
         </div>
-
+        <a href="#" onclick="return false;" onmousedown="resetScroller('headertitleId');">Op til top</a>
     </section>
 
     <section>
-        <h1>LOGO:</h1>
+        <h1 id="div2">LOGO:</h1>
         <div class="box-container">
 
             <div class="knapper-elem">
@@ -60,10 +60,11 @@
 
             </div>
         </div>
+        <a href="#" onclick="return false;" onmousedown="resetScroller('headertitleId');">Op til top</a>
     </section>
 
     <section>
-        <h1>KNAPPER:</h1>
+        <h1 id="div3">KNAPPER:</h1>
         <div class="box-container">
             <div class="knapper-elem">
                 <p class="nav-overskrifter">KNAP</p>
@@ -77,10 +78,11 @@
                 </div>
             </div>
         </div>
+        <a href="#" onclick="return false;" onmousedown="resetScroller('headertitleId');">Op til top</a>
     </section>
 
     <section>
-        <H1>Typografi:</H1>
+        <H1 id="div4">Typografi:</H1>
         <div class="box-container">
             <div class="knapper-elem">
                 <p class="nav-overskrifter">Skrifttype</p>
@@ -108,9 +110,10 @@
                 </div>
             </div>
         </div>
+        <a href="#" onclick="return false;" onmousedown="resetScroller('headertitleId');">Op til top</a>
     </section>
     <section>
-        <h1>Ikoner:</h1>
+        <h1 id="div5">Ikoner:</h1>
         <div class="box-container">
             <div class="knapper-elem">
                 <p class="nav-overskrifter">Ikon</p>
@@ -150,9 +153,10 @@
                 </div>
             </div>
         </div>
+        <a href="#" onclick="return false;" onmousedown="resetScroller('headertitleId');">Op til top</a>
     </section>
     <section>
-        <h1>Navigation:</h1>
+        <h1 id="div6">Navigation:</h1>
         <div class="box-container">
             <div class="knapper-elem">
                 <p class="nav-overskrifter">Navigation</p>
@@ -166,6 +170,9 @@
                 </div>
             </div>
         </div>
+        <a href="#" onclick="return false;" onmousedown="resetScroller('headertitleId');">Op til top</a>
     </section>
+
+    
 </body>
 </html>
