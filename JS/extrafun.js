@@ -6,13 +6,7 @@ var speed = 24;
 
 function autoScrollTo(el) {
 	var currentY = window.pageYOffset;
-	console.log(currentY)
 	var targetY = document.getElementById(el).offsetTop;
-	console.log(targetY)
-	var bodyHeight = document.body.offsetHeight;
-	console.log(bodyHeight)
-	var yPos = currentY + window.innerHeight;
-	console.log(yPos)
 	var animator = setTimeout('autoScrollTo(\''+el+'\')',24);
 	console.log(animator)
 		if(currentY < targetY-distance){
@@ -37,3 +31,17 @@ function resetScroller(el){
 }
 
 // SARA JS - Typing Text Animation (Array Loop) 
+
+var myString = "Styleguide";
+var myArray = myString.split("");
+var loopTimer;
+function frameLooper() {
+	if(myArray.length > 0) {
+		document.getElementById("automatiskTekst").innerHTML += myArray.shift();
+	} else {
+		clearTimeout(loopTimer); 
+                return false;
+	}
+	loopTimer = setTimeout('frameLooper()',70);
+}
+frameLooper();
