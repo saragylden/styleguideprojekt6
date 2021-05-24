@@ -1,8 +1,7 @@
 @import url('https://fonts.google.com/specimen/Poppins');
 
 body{
-    font-family: 'Archivo Black', sans-serif;
-    font-family: 'Archivo', sans-serif;
+    font-family: Poppins;
 }
 
 /* NAVIGATIONSBAR */
