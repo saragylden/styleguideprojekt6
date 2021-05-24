@@ -1,3 +1,5 @@
+@import url('https://fonts.google.com/specimen/Poppins');
+
 body{
     font-family: 'Archivo Black', sans-serif;
     font-family: 'Archivo', sans-serif;
@@ -18,7 +20,6 @@ body{
     text-decoration: none;
     text-transform: uppercase;
     font-size: 17px;
-    font-family: 'Archivo', sans-serif;
   }
 
   .topnav a:hover {
@@ -38,7 +39,6 @@ body{
     transform: translate(-50%, -50%);
     font-size: 60px;
     color: #fff;
-    font-family: 'Archivo Black', sans-serif;
   }
 
   .typingtext{
@@ -48,7 +48,6 @@ body{
     transform: translate(-50%, -50%);
     font-size: 40px;
     color: #fff;
-    font-family: 'Archivo Black', sans-serif;
   }
 
 
@@ -61,7 +60,6 @@ section{
 }
 
 h1{
-    font-family: 'Archivo', sans-serif; 
     color: #000000;
     margin-left: 5%;
     padding-top: 5%;
@@ -70,7 +68,6 @@ h1{
 /* FARVE BOKSENE */
 .box1 {
     border: 1px solid #859D7D;
-    font-family: 'Archivo Black', sans-serif;
     background-color: #859D7D; 
     color: #fff;
     padding: 30px;
@@ -80,7 +77,6 @@ h1{
 
 .box2 {
     border: 1px solid #214D13;
-    font-family: 'Archivo Black', sans-serif;
     background-color: #214D13; 
     color: #fff;
     padding: 30px;
@@ -90,7 +86,6 @@ h1{
 
   .box3 {
     border: 1px solid #fff;
-    font-family: 'Archivo Black', sans-serif;
     background-color: #fff; 
     color: #000;
     padding: 30px;
@@ -100,7 +95,6 @@ h1{
 
   .box4 {
     border: 1px solid #505050;
-    font-family: 'Archivo Black', sans-serif;
     background-color: #505050; 
     color: #fff;
     padding: 30px;
@@ -180,6 +174,5 @@ h1{
   text-decoration: none;
   overflow: hidden;
   cursor: pointer;
-  font-family: 'Archivo Black', sans-serif;
   margin-left: 45%;
 }
