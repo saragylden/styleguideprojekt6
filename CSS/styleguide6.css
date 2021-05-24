@@ -108,26 +108,25 @@ h1{
     margin-left: 3%;
   }
 
- /* Logo sektion 
- .logoimage{
-     width: 25%;
-     height: auto;
-     margin-left: 3%;
- } */
-
- .xmp{
-    font-family: 'Archivo', sans-serif;
- }
+  xmp {
+    white-space: normal;
+    margin: 0px 0px 0px 0px;
+  }
 
  .boxed {
-    background: rgb(243, 243, 243);
-    color: #515F6D;
-    width: 380px;
-    padding: 35px;
-    font-size: 20px;
-    overflow-wrap: break-word;
-    margin: 0px 0px 14px 0px;
-  }
+  background: rgb(243, 243, 243);
+  color: #515F6D;
+  width: 380px;
+  padding: 35px;
+  font-size: 20px;
+  overflow-wrap: break-word;
+  margin: 0px 0px 14px 0px;
+}
+
+.boxed {
+  padding: 2rem;
+  background: rgb(243, 243, 243); 
+}
 
  .nav-headings {
     font-size: 20px;
@@ -153,6 +152,10 @@ h1{
     background: rgb(243, 243, 243);
     color: #214D13;
   }
+
+.kode-text{
+  width: 380px;
+}
 
   .nav-overskrifter {
     font-weight: bold;
@@ -180,5 +183,3 @@ h1{
   font-family: 'Archivo Black', sans-serif;
   margin-left: 45%;
 }
-
- 
