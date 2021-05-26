@@ -33,14 +33,21 @@ function resetScroller(el){
 // SARA JS - Typing Text Animation (Array Loop) 
 
 var myString = "Styleguide";
+console.log(myString)
 var myArray = myString.split("");
+console.log(myArray)
 var loopTimer;
 function frameLooper() {
 	if(myArray.length > 0) {
 		document.getElementById("automatiskTekst").innerHTML += myArray.shift();
+	
+		for (var i = 0; i < myArray.length; i++){
+		console.log(i);
+		}
+
 	} else {
 		clearTimeout(loopTimer); 
-                return false;
+            return false;
 	}
 	loopTimer = setTimeout('frameLooper()',70);
 }
